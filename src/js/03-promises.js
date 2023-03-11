@@ -2,8 +2,8 @@ import Notiflix from 'notiflix';
 
 const delayInput = document.querySelector('input[name="delay"]');
 const stepInput = document.querySelector('input[name="step"]');
-const amountInput = document.querySelector('input[name="amount"]');
 const submitBtn = document.querySelector('button');
+const amountInput = document.querySelector('input[name="amount"]');
 
 let timerId = null;
 let intervalId = null;
