@@ -34,6 +34,8 @@ function startPromises(e) {
           .catch(failure => Notiflix.Notify.failure(failure));
         i++;
         actualDelay += stepInputValueToNmbr;
+      } else {
+        clearInterval(intervalId);
       }
     }, stepInputValueToNmbr);
   }, delayInputValueToNmbr);
